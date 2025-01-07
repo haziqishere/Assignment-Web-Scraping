@@ -26,7 +26,7 @@ page = st.sidebar.selectbox(
 # Load and preprocess data
 @st.cache_data  # Cache the data loading
 def load_data():
-    movie_data = pd.read_csv('scraped_data.csv')
+    movie_data = pd.read_csv('data-attempt-3.csv')
     return movie_data
 
 @st.cache_data
